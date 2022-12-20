@@ -1,0 +1,124 @@
+body > div {text-align: center}
+body > div div{width: 30%;margin: auto;border: solid 1px #000;border-radius: 25px;padding: 10px;}
+a{text-decoration: none;}
+@media (max-width:768px) {.dark-mode div{width: 70%;}}
+@font-face {
+    font-family:cascadia-code;
+    src: url(fonts/cascadia-code.ttf);
+}
+@font-face {
+    font-family:trueno-Round;
+    src: url(fonts/trueno-Round.otf);
+}
+@font-face {
+    font-family:Cairo-Regular;
+    src: url(fonts//Cairo-Regular.ttf);
+}
+@font-face {
+    font-family:Droid-Arabic-Kufi ;
+    src: url(fonts//Droid-Arabic-Kufi.ttf);
+}
+@font-face {
+    font-family:GE-SS-Two-Light ;
+    src: url(fonts//GE-SS-Two-Light.otf);
+}
+@font-face {
+    font-family:OpenSans-B9K8;
+    src: url(fonts//OpenSans-B9K8.ttf);
+}
+@font-face {
+    font-family: Segoe-UI;
+    src: url(fonts//Segoe-UI.ttf);
+}
+@font-face {
+    font-family: Somar-ExtraLight;
+    src: url(fonts/Somar-ExtraLight.otf);
+}
+@font-face {
+    font-family: Readex-Pro;
+    src: url(fonts/ReadexPro-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: agetta;
+    src: url(fonts/agetta-display.regular.otf);
+}
+@font-face {
+    font-family:Along;
+    src: url(fonts/Along-Sans-Medium.otf);
+}
+@font-face {
+    font-family: GAQIRE;
+    src: url(fonts/GAQIRE.otf);
+}
+@font-face {
+    font-family: GE-Hili;
+    src: url(fonts/GE_Hili_Book.otf);
+}
+@font-face {
+    font-family: Junge;
+    src: url(fonts/Junge-Regular.ttf);
+}
+@font-face {
+    font-family: MinyaDemo;
+    src: url(fonts/MinyaDemo.otf);
+}
+@font-face {
+    font-family: Tajawal;
+    src: url(fonts/Tajawal-Regular.ttf);
+}
+@font-face {
+    font-family:UKIJBom ;
+    src: url(fonts/UKIJBom.ttf);
+}
+@font-face {
+    font-family: XM-Vahid;
+    src: url(fonts/XM-Vahid.ttf);
+}
+@font-face {
+    font-family:FTY-Strategycide-NCV;
+    src: url(fonts/FTY-Strategycide-NCV.ttf);
+}
+@font-face {
+    font-family:smar-tech-daily;
+    src: url(fonts/@smartechdailyiOS16V2.ttf);
+}
+div:nth-of-type(1){font-family: cascadia-code;}
+div:nth-of-type(2){font-family: trueno-Round;}
+div:nth-of-type(3){font-family: Cairo-Regular; }
+div:nth-of-type(4){font-family: Droid-Arabic-Kufi;}
+div:nth-of-type(5){font-family: GE-SS-Two-Light;}
+div:nth-of-type(6){font-family: OpenSans-B9K8;}
+div:nth-of-type(7){font-family: Segoe-UI;}
+div:nth-of-type(8){font-family: Somar-ExtraLight;}
+div:nth-of-type(9){font-family: Readex-Pro;}
+div:nth-of-type(10){font-family: Poppins;}
+div:nth-of-type(11){font-family: agetta;}
+div:nth-of-type(12){font-family: Along;}
+div:nth-of-type(13){font-family: GAQIRE;}
+div:nth-of-type(14){font-family: GE-Hili;}
+div:nth-of-type(15){font-family: Junge;}
+div:nth-of-type(16){font-family: MinyaDemo;}
+div:nth-of-type(17){font-family: Tajawal;}
+div:nth-of-type(18){font-family: UKIJBom;}
+div:nth-of-type(19){font-family: XM-Vahid;}
+div:nth-of-type(20){font-family: FTY-Strategycide-NCV;}
+div:nth-of-type(21){font-family: smar-tech-daily;}
+
+input[type="checkbox"]{display: none;}
+label{width: fit-content;
+    position:absolute ;}
+label i{padding: 10px; font-size: 24px;}
+label .ri-sun-line{display: none;
+    color: aliceblue;}
+input[type="checkbox"]:checked ~ label .fa-moon{display: none;}
+input[type="checkbox"]:checked ~ label .ri-sun-line{display: block;}
+.dark-mode{overflow: hidden;}
+input[type="checkbox"]:checked ~ .dark-mode{
+    background-color: black;
+    color: white;}
+input[type="checkbox"]:checked ~ .dark-mode div{border-color: white;}
+input[type="checkbox"]:checked ~ .dark-mode a{color: green;}
