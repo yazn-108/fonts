@@ -7,8 +7,8 @@ a{text-decoration: none;}
     src: url(fonts/\(A\)-Arslan-Wessam-A.ttf);
 }
 @font-face {
-    font-family:cascadia-code;
-    src: url(fonts/cascadia-code.ttf);
+    font-family:Along;
+    src: url(fonts/Along-Sans-Medium.otf);
 }
 @font-face {
     font-family:trueno-Round;
@@ -51,8 +51,8 @@ a{text-decoration: none;}
     src: url(fonts/agetta-display.regular.otf);
 }
 @font-face {
-    font-family:Along;
-    src: url(fonts/Along-Sans-Medium.otf);
+    font-family:cascadia-code;
+    src: url(fonts/cascadia-code.ttf);
 }
 @font-face {
     font-family: GAQIRE;
@@ -91,7 +91,7 @@ a{text-decoration: none;}
     src: url(fonts/@smartechdailyiOS16V2.ttf);
 }
 .container div:nth-of-type(1),a:nth-of-type(1){font-family:A-Arslan-Wessam-A; font-size: x-large;}
-.container div:nth-of-type(2),a:nth-of-type(2){font-family: cascadia-code;}
+.container div:nth-of-type(2),a:nth-of-type(2){font-family: Along;}
 .container div:nth-of-type(3),a:nth-of-type(3){font-family: trueno-Round;}
 .container div:nth-of-type(4),a:nth-of-type(4){font-family: Cairo-Regular; }
 .container div:nth-of-type(5),a:nth-of-type(5){font-family: Droid-Arabic-Kufi;}
@@ -102,7 +102,7 @@ a{text-decoration: none;}
 .container div:nth-of-type(10),a:nth-of-type(10){font-family: Readex-Pro;}
 .container div:nth-of-type(11),a:nth-of-type(11){font-family: Poppins;}
 .container div:nth-of-type(12),a:nth-of-type(12){font-family: agetta;}
-.container div:nth-of-type(13),a:nth-of-type(13){font-family: Along;}
+.container div:nth-of-type(13),a:nth-of-type(13){font-family: cascadia-code;}
 .container div:nth-of-type(14),a:nth-of-type(14){font-family: GAQIRE;}
 .container div:nth-of-type(15),a:nth-of-type(15){font-family: GE-Hili;}
 .container div:nth-of-type(16),a:nth-of-type(16){font-family: Junge;}
